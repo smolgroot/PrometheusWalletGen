@@ -1,0 +1,17 @@
+GET http://localhost:8081/api/v0/ping
+
+###
+
+GET http://localhost:8081/api/v0/
+User-Agent: rest-client
+
+
+###
+POST http://localhost:8081/api/v0/generate
+Content-Type: application/json
+
+{
+    "prefix":"",
+    "suffix":"eef",
+    "threads":1
+}
